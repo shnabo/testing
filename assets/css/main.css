@@ -1794,6 +1794,9 @@
 
 /* Main */
 
+.content {
+	background-color: grey;
+}
 	.main {
 		display: -moz-flex;
 		display: -webkit-flex;
