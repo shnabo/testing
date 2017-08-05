@@ -1793,12 +1793,29 @@
 		}
 
 /* Main */
-div.landing-page {
-  margin: 30px;
-  background-color: #ffffff;
+.landing-page {
+  margin: 10px;
+	padding: 5px;
+  background-color: #EECBAD;
   border: 1px solid black;
-  opacity: 0.6;
+  opacity: 0.5;
   filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.landing-page header {
+	padding: 10px 0 10px 0;
+	margin: 0px;
+}
+.landing-page header h2 {
+	font-weight: 900;
+	color: black;
+	margin: 2%;
+	opacity: 1000;
+}
+
+.landing-page p {
+	font-weight: 800;
+	font-size: 18px;
+	color: black;
 }
 
 .main {
@@ -1941,7 +1958,7 @@ div.landing-page {
 			}
 
 			.main.dark .button.style2 {
-				border-color: #ffffff;
+				border-color: #EECBAD;
 			}
 
 				.main.dark .button.style2:hover {
@@ -2147,15 +2164,10 @@ div.landing-page {
 		/*background-repeat: repeat, no-repeat;*/
 	}
 
- #introp {
-	 font-weight: 900;
-	 font-size: 12pt;
-	 font-size: large;
- }
 /* One */
 
 	#one {
-		background: url("images/fire.jpg"), url("../../images/one.jpg");
+		background: url("images/fire.jpg"), url("../../images/backgroundpic.jpg");
 		background-size: 100%;
 		background-repeat: none;
 
@@ -2182,7 +2194,7 @@ div.landing-page {
 		}
   /* Four */
 	#four {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/backgroundpic.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2192,7 +2204,7 @@ div.landing-page {
   /* Five */
 
 	#five {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/our_retailers.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
