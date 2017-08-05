@@ -1794,8 +1794,8 @@
 
 /* Main */
 
-.content {
-	background-color: grey;
+.landingpage {
+	background-color: black;
 }
 	.main {
 		display: -moz-flex;
